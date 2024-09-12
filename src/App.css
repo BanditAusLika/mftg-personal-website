@@ -1,0 +1,106 @@
+<<<<<<< HEAD
+=======
+/* Global Styles */
+>>>>>>> 72dbfb4f41cd05e927b074cec94979e05929cd84
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+<<<<<<< HEAD
+=======
+  background-color: #121212;
+  color: #ffffff;
+>>>>>>> 72dbfb4f41cd05e927b074cec94979e05929cd84
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+<<<<<<< HEAD
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* General hover effect */
+=======
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, ul, button {
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 
+    0 0 5px #ffffff, 
+    0 0 10px #00bfff, 
+    0 0 15px #00bfff;
+}
+
+/* Button Hover Effect */
+button, a {
+  background: #00bfff;
+  text-shadow: 0 0 10px #00bfff;
+  transition: background 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 10px #00bfff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover, a:hover {
+  background: #ff0040;
+  box-shadow: 0 0 20px #ff0040;
+  text-shadow: 0 0 15px #ff0040;
+}
+
+img:hover {
+  box-shadow: 0 0 40px #ff0040;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* General Hover Effect */
+>>>>>>> 72dbfb4f41cd05e927b074cec94979e05929cd84
+.hover-effect:hover {
+  text-shadow: 
+    0 0 10px #ff0040, 
+    0 0 20px #ff0040, 
+    0 0 30px #ff0040, 
+    0 0 40px #ff0040;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+<<<<<<< HEAD
+/* Glow effect for images */
+img:hover {
+  box-shadow: 0 0 40px #ff0040;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Glow effect for buttons */
+button:hover {
+  background: #00bfff;
+  text-shadow: 0 0 10px #00bfff;
+  transition: background 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+=======
+/* Flex and Layouts */
+section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+>>>>>>> 72dbfb4f41cd05e927b074cec94979e05929cd84
+}
