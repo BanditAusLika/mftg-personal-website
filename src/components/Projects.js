@@ -26,6 +26,14 @@ const Projects = () => (
       <a href="https://mftg-todoapp.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover-effect">View Project</a>
       <p>A fully functional to-do list app developed using Vue.js and deployed via Git and Netlify. This project is a portfolio highlight, featuring responsive design and enhanced hover effects for user engagement.</p>
     </Project>
+
+    {/* MFTG Budget Tracker */}
+    <Project>
+      <h3 className="hover-effect">MFTG Budget Tracker</h3>
+      <a href="https://mftg-budget-tracker.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover-effect">View Project</a>
+      <p>A fully responsive budget tracker app developed using React.js. This app helps users track their expenses, provides insightful statistics, and saves data using localStorage. It features a neon, dark theme with glowing hover effects and Orbitron typography.</p>
+    </Project>
+
   </ProjectsSection>
 );
 
