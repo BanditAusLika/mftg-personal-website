@@ -1,37 +1,15 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 /* Global Styles */
->>>>>>> 72dbfb4f41cd05e927b074cec94979e05929cd84
 html, body {
   height: 100%;
   margin: 0;
   font-family: 'Orbitron', sans-serif;
-<<<<<<< HEAD
-=======
   background-color: #121212;
   color: #ffffff;
->>>>>>> 72dbfb4f41cd05e927b074cec94979e05929cd84
 }
 
 body {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-}
-
-.App {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  margin-top: auto;
-}
-
-/* General hover effect */
-=======
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
@@ -71,7 +49,6 @@ img:hover {
 }
 
 /* General Hover Effect */
->>>>>>> 72dbfb4f41cd05e927b074cec94979e05929cd84
 .hover-effect:hover {
   text-shadow: 
     0 0 10px #ff0040, 
@@ -81,20 +58,6 @@ img:hover {
   transition: text-shadow 0.3s ease-in-out;
 }
 
-<<<<<<< HEAD
-/* Glow effect for images */
-img:hover {
-  box-shadow: 0 0 40px #ff0040;
-  transition: box-shadow 0.3s ease-in-out;
-}
-
-/* Glow effect for buttons */
-button:hover {
-  background: #00bfff;
-  text-shadow: 0 0 10px #00bfff;
-  transition: background 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
-=======
-/* Flex and Layouts */
 section {
   padding: 100px 20px;
   text-align: center;
@@ -103,44 +66,4 @@ section {
 .container {
   max-width: 1000px;
   margin: 0 auto;
->>>>>>> 72dbfb4f41cd05e927b074cec94979e05929cd84
-=======
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
->>>>>>> 622e934 (Initialize project using Create React App)
 }
