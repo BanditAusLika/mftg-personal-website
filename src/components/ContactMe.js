@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub } from 'react-icons/fa';
 
 const ContactMe = () => (
   <ContactSection id="contact">
@@ -15,6 +15,9 @@ const ContactMe = () => (
       <Address className="hover-effect">
         <FaMapMarkerAlt /> Magdeburg / Germany
       </Address>
+      <ContactItem href="https://github.com/BanditAusLika" target="_blank" rel="noopener noreferrer" className="hover-effect">
+        <FaGithub /> github.com/BanditAusLika
+      </ContactItem>
     </ContactInfo>
   </ContactSection>
 );

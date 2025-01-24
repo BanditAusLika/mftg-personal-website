@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Footer = () => (
   <FooterContainer>
-    <FooterText className="hover-effect">Made By MFTG 2024</FooterText>
+    <FooterText className="hover-effect">Made By MFTG 2025</FooterText>
   </FooterContainer>
 );
 

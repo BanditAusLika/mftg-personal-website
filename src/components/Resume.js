@@ -5,25 +5,27 @@ const Resume = () => (
   <ResumeSection id="resume">
     <Heading className="hover-effect">Resume</Heading>
     <Job>
-      <h4 className="hover-effect">Material Handler - Tesla Manufacturing Brandenburg SE, Berlin</h4>
+      <h4 className="hover-effect">Warehouse Worker - Amazon Warehouse, Magdeburg</h4>
+      <p>October 2024 – January 2025</p>
+      <ul>
+        <li>Logistics and inventory management.</li>
+      </ul>
+    </Job>
+    <Job>
+      <h4 className="hover-effect">Material Handler - Tesla Manufacturing Brandenburg GmbH, Berlin</h4>
       <p>February 2023 – July 2023</p>
       <ul>
         <li>Managed the efficient transport of goods between distribution centers and production lines.</li>
         <li>Operated forklifts and material handling equipment.</li>
+        <li>Utilized ERP systems for logistics and inventory processes.</li>
       </ul>
     </Job>
     <Job>
-      <h4 className="hover-effect">Full Stack Web Developer (Freelance)</h4>
-      <p>July 2021 – January 2022</p>
-      <ul>
-        <li>Developed a website for MBA Cleaning Service, optimizing for SEO and user experience.</li>
-      </ul>
-    </Job>
-    <Job>
-      <h4 className="hover-effect">Confidential Role</h4>
+      <h4 className="hover-effect">Special Assignment</h4>
       <p>August 2013 – April 2021</p>
       <ul>
-        <li>Held a specialized position involving highly sensitive assignments across multiple locations. Specific details cannot be disclosed due to ongoing legal proceedings.</li>
+        <li>Held a specialized position involving highly sensitive assignments across multiple locations.</li>
+        <li>Specific details cannot be disclosed due to ongoing legal proceedings.</li>
       </ul>
     </Job>
     <Job>
@@ -31,6 +33,7 @@ const Resume = () => (
       <p>January 2004 – October 2012</p>
       <ul>
         <li>Planned, organized, and executed various events, managing all logistical and operational aspects.</li>
+        <li>Coordinated with vendors, performers, and clients to ensure event success.</li>
       </ul>
     </Job>
   </ResumeSection>
