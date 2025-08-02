@@ -5,13 +5,13 @@ const AboutMe = () => (
   <AboutSection id="about">
     <Heading className="hover-effect">About Me</Heading>
     <ProfessionalSummary>
-      Certified Full Stack Web and App Developer with a diverse background in web development, IT support, and cybersecurity. I am passionate about continuous learning and innovation, currently pursuing advanced Python programming and professional German language studies. My professional journey includes working on sensitive assignments requiring discretion and confidentiality. Legally authorized to live and work in Germany with a valid German/EU driving license.
+      Certified Full Stack Web and App Developer with a diverse background in web development, IT support, and cybersecurity. I am passionate about continuous learning and innovation, recently completing an advanced Python programming certification and professional Business German language training. My professional journey includes working on sensitive assignments requiring discretion and confidentiality. Legally authorized to live and work in Germany with a valid German/EU driving license.
     </ProfessionalSummary>
     <CoreCompetencies>
       <h3 className="hover-effect">Core Competencies</h3>
       <ul>
         <li>Web Development: Responsive Design, HTML5, CSS3, JavaScript, React, Vue.js</li>
-        <li>Programming: Python, TypeScript, SQL, NoSQL</li>
+        <li>Programming: Python, Django, GUI, TypeScript, SQL, NoSQL</li>
         <li>IT Support & Cybersecurity: Network Security, Linux, Troubleshooting, System Administration</li>
         <li>Cloud Computing: AWS Educate, IBM Cloud Services</li>
         <li>Project Management: Agile Methodologies, SEO Optimization</li>
@@ -22,6 +22,8 @@ const AboutMe = () => (
       <h3 className="hover-effect">Certifications</h3>
       <ul>
         <li>Full Stack Web and App Development - WBS Coding School (Jan 2022, 408 hours)</li>
+        <li>Certified Python Programmer – ILS Hamburg (Mar 2024 – May 2025, 581 hours, Grade 1.7)</li>
+        <li>Business German – Berlitz Frankfurt (May–Jul 2025, 160 hours, Level B1.1 CEFR)</li>
         <li>Google IT Support Professional Certificate (June 2023)</li>
         <li>Google Cybersecurity Professional Certificate (March 2024)</li>
         <li>IBM Cloud Computing Certificate (June 2023)</li>
@@ -35,15 +37,9 @@ const AboutMe = () => (
     <Education>
       <h3 className="hover-effect">Education</h3>
       <ul>
-        <li>
-          <strong>Penn Foster Education:</strong> Ongoing, with plans to pursue an associate degree in Computer Systems.
-        </li>
-        <li>
-          <strong>Certified Python Programmer (ILS):</strong> Enrolled since March 2024 (6/18 milestones completed).
-        </li>
-        <li>
-          <strong>German Language Studies:</strong> Actively learning German professionally, certified at A2.1 level (Berlitz Placement Test).
-        </li>
+        <li><strong>Penn Foster Education:</strong> Ongoing, with plans to pursue an associate degree in Computer Systems.</li>
+        <li><strong>Certified Python Programmer – ILS Hamburg:</strong> Completed 581-hour accredited course covering OOP, Django, GUI, file and database handling. Final grade: 1.7.</li>
+        <li><strong>Business German – Berlitz Frankfurt:</strong> Completed 160-hour in-person course focused on customer service, meetings, job applications, and formal business correspondence. Achieved CEFR level B1.1.</li>
       </ul>
     </Education>
   </AboutSection>
